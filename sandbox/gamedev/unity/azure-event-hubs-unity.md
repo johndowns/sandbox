@@ -50,7 +50,7 @@ Please refer to the [Azure Event Hubs Docs](https://docs.microsoft.com/en-us/azu
 
 ## Unity 2018.1 and SSL support
 
-Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail due to Mono's empty certificate store. To workaround this, you will need to modify the **ServicePointManager.CertificatePolicy** with a custom CertificatePolicy which will accept all certificates as shown.  **This means that data transfer will happen in an insecure manner.**
+Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail due to Mono's empty certificate store. To workaround this, you will need to modify the **ServicePointManager.CertificatePolicy** with a custom CertificatePolicy which will accept all certificates as shown.  **This means that data transfer will happen in an insecure manner.**  We highly recommend upgrading your project to Unity 2018.2 if possible.
 
 ```csharp
     public class CustomCertificatePolicy : ICertificatePolicy

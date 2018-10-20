@@ -49,7 +49,7 @@ Please refer to the [Azure Mobile Apps Docs](https://aka.ms/azgamedev) for even 
 
 ## Unity 2018.1 and SSL support
 
-Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to use the **http** version of the Mobile Apps endpoint instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example: `http://mymobileapp.azurewebsites.net/`
+Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to use the **http** version of the Mobile Apps endpoint instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example: `http://mymobileapp.azurewebsites.net/`.   We highly recommend upgrading your project to Unity 2018.2 if possible.
 
 ## Try the Sample
 
