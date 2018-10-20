@@ -35,17 +35,9 @@ This has been tested with the following Unity exporters.  Others may work -- we 
 * Android (Mono)
 * Unity editor
 
-## Known Issues and Limitations
+## Unity 2018.1 and SSL support
 
-There are a few known issues and workarounds.
-
-### Unity 2018.1 and SSL support
-
-Due to a limitation in Unity 2018.1 (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to modify the **DefaultEndpointsProtocol** entry in your connection string to use **http** instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example:
-
-```text
-DefaultEndpointsProtocol=http;AccountName=yourazureaccount;AccountKey=abcdef12345;EndpointSuffix=core.windows.net
-```
+Due to a limitation in Unity 2018.1 (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to modify the **DefaultEndpointsProtocol** entry in your connection string to use **http** instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example: `DefaultEndpointsProtocol=http;AccountName=yourazureaccount;AccountKey=abcdef12345;EndpointSuffix=core.windows.net`
 
 ## Import the SDK
 
