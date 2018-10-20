@@ -66,7 +66,7 @@ We will continue working on these and update as we find fixes.
 
 To import the SDK into your own project, make sure you have downloaded the latest [.unitypackage](https://aka.ms/azstorage-unitysdk) from GitHub.  Then, do the following:
 
-[!include[](include/unity-import.md)]
+[!include[](include/unity-import-2017.md)]
 
 Please refer to the [Azure Storage Docs](https://aka.ms/azstoragedocsgamedev) for even more samples and tutorials on using the API.
 

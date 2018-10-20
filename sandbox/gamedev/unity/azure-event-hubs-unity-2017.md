@@ -94,7 +94,7 @@ We will continue working on these and update the documentation as soon as we fin
 
 To import the SDK into your own project, make sure you have downloaded the latest [.unitypackage](https://aka.ms/azeventhubs-unitysdk) from GitHub.  Then, do the following:
 
-[!include[](include/unity-import.md)]
+[!include[](include/unity-import-2017.md)]
 
 Please refer to the [Azure Event Hubs Docs](https://docs.microsoft.com/en-us/azure/event-hubs/) for even more samples and tutorials on using the API.
 
