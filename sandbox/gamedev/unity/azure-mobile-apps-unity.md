@@ -33,11 +33,11 @@ ms.author: brpeek
 
 This has been tested with the following Unity exporters.  Others may work -- we haven't tested every platform, so please let us know if you've had success!
 
-* Windows standalone
-* UWP (IL2CPP)
+* Windows/Mac Standalone
 * iOS
 * Android (Mono)
-* Unity editor
+* UWP (IL2CPP)
+* Unity Editor
 
 ## Import the SDK
 
