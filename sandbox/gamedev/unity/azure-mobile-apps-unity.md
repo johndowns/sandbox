@@ -5,12 +5,8 @@ author: BrianPeek
 manager: timheuer
 keywords: unity, azure, Mobile Apps
 ms.topic: article
-ms.date: 11/29/2017
+ms.date: 10/20/2018
 ms.author: brpeek
-#ms.devlang: 
-#ms.prod:
-#ms.technology:
-#ms.service:
 ---
 # Azure Mobile Apps SDK for Unity
 
@@ -28,8 +24,8 @@ ms.author: brpeek
 
 ## Requirements
 
-* [Unity 2017.1 (or greater)](https://unity3d.com/)
-  * Unity 2017.1 includes a new scripting runtime that supports .NET 4.6.  This feature allows us to use the existing Azure SDKs with some tweaks.  Please see [this blog post from Unity](https://blogs.unity3d.com/2017/07/11/introducing-unity-2017/) for more information.
+* [Unity 2018.1 (or greater)](https://unity3d.com/)
+  * Unity 2019.1 includes support for .NET Standard.  This feature allows us to use the existing Azure SDKs with some tweaks.
 * [An Azure Mobile Apps account (Sign up for free!)](https://aka.ms/azfreegamedev)
 
 ## Compatibility
@@ -37,7 +33,7 @@ ms.author: brpeek
 This has been tested with the following Unity exporters.  Others may work -- we haven't tested every platform, so please let us know if you've had success!
 
 * Windows standalone
-* UWP (.NET)
+* UWP (IL2CPP)
 * iOS
 * Android (Mono)
 * Unity editor
@@ -48,23 +44,13 @@ There are a few known issues and workarounds.
 
 ### Unity and SSL support
 
-Due to a Unity limitation, HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to use the **http** version of the Mobile Apps endpoint instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example:
+Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to use the **http** version of the Mobile Apps endpoint instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example:
 
 ```text
 http://mymobileapp.azurewebsites.net/
 ```
 
 <!--[!include[](include/uwp-known-issues.md)]-->
-
-### Other Platforms
-
-We have not had success in compiling or running games using the following platforms:
-
-* Android (IL2CPP)
-* UWP (IL2CPP)
-* WebGL
-
-We will continue working on these and update as we find fixes.
 
 ## Import the SDK
 
@@ -84,7 +70,7 @@ To use the sample, do the following:
 
 1. Unzip to a location on your hard drive.
 
-1. Open Unity 2017.1 (or greater) and point it to the **MobileApps** directory inside the unzipped package.
+1. Open Unity 2018.1 (or greater) and point it to the **MobileApps** directory inside the unzipped package.
 
 1. In the **Project** window, double-click the **AzureMobileApps** scene inside the **Assets\AzureSamples\MobileApps** directory to open the main scene for the sample.
 
