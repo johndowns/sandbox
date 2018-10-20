@@ -31,11 +31,11 @@ Azure Event Hubs is a real-time custom event ingestion service that can collect 
 
 ## Compatibility
 
-This has been tested with the following Unity exporters.  Others may work -- we haven't tested every platform, so please let us know if you've had success!
+This has been tested with the following Unity exporters.  Others wil likely work, however we haven't tested every possible platform and combination.  Please let us know if you've had success!
 
 * Windows/Mac Standalone
 * iOS
-* Android
+* Android (Mono)
 * UWP (IL2CPP)
 * Unity Editor
 
