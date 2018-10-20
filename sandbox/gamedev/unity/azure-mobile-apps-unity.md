@@ -13,9 +13,9 @@ ms.author: brpeek
 [!include[](../../includes/header.md)]
 
 > [!IMPORTANT]
-> This is an experimental Unity SDK for Azure Mobile Apps.  As such, please note that this SDK is not supported and is not provided by the Azure Mobile Apps team.  If you run into problems, please let us know using the [GitHub Issues](https://github.com/BrianPeek/AzureSDKs-Unity/issues) page for this fork.
+> This is an experimental Unity SDK for Azure Mobile Apps.  As such, please note that this SDK is not supported and is not provided by the Azure Mobile Apps team.  If you run into problems, please let us know using the [GitHub Issues](https://aka.ms/azsdks-unity/issues) page for this fork.
 
-[![Get the source](../../media/buttons/source2.png)](https://github.com/BrianPeek/AzureSDKs-Unity)
+[![Get the source](../../media/buttons/source2.png)](https://aka.ms/azsdks-unity)
 [![Try it now](../../media/buttons/try2.png)](https://aka.ms/azmobile-unitysdk)
 
 ## Azure Mobile Apps for Gaming
@@ -57,7 +57,7 @@ To use the sample, you will need to have an Azure Mobile Apps account setup alon
 
 To use the sample, do the following:
 
-1. Download the [Unity SDKs repo](https://github.com/BrianPeek/AzureSDKs-Unity) from GitHub (or import it from the .unitypackage and continue to step 4).
+1. Download the [Unity SDKs repo](https://aka.ms/azsdks-unity) from GitHub (or import it from the .unitypackage and continue to step 4).
 
 1. Unzip to a location on your hard drive.
 
