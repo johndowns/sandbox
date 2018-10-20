@@ -50,8 +50,6 @@ Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the sta
 http://mymobileapp.azurewebsites.net/
 ```
 
-<!--[!include[](include/uwp-known-issues.md)]-->
-
 ## Import the SDK
 
 To import the SDK into your own project, make sure you have downloaded the latest [.unitypackage](https://aka.ms/azmobile-unitysdk) from GitHub.  Then, do the following:

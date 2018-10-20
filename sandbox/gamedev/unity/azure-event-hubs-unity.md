@@ -83,7 +83,7 @@ To use the sample, do the following:
 
 1. Unzip to a location on your hard drive.
 
-1. Open Unity 2017.1 (or greater) and point it to the **EventHubs** directory inside the unzipped package.
+1. Open Unity 2018.1 (or greater) and point it to the **EventHubs** directory inside the unzipped package.
 
 1. In the **Project** window, double-click the **EventHub** scene inside the **Assets\AzureSamples\EventHubs** directory to open the main scene for the sample.
 
