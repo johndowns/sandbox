@@ -12,15 +12,15 @@ ms.author: brpeek
 
 [!include[](../../includes/header.md)]
 
-> [!IMPORTANT]
-> This is an experimental Unity SDK for Azure Event Hubs.  As such, please note that this SDK is not supported and is not provided by the Azure Event Hubs team.  If you run into problems, please let us know using the [GitHub Issues](https://aka.ms/azsdks-unity/issues) page for this fork.
-
-[![Get the source](../../media/buttons/source2.png)](https://aka.ms/azsdks-unity)
-[![Try it now](../../media/buttons/try2.png)](https://aka.ms/azeventhubs-unitysdk)
-
 ## Azure Event Hubs for Gaming
 
 Azure Event Hubs is a real-time custom event ingestion service that can collect and store millions of events per second. Events can then be analyzed in real-time using [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/) or stored to [Azure Storage](https://azure.microsoft.com/en-us/services/storage/) or [Azure Data Lake Store](https://azure.microsoft.com/en-us/services/data-lake-store/) for processing at a later time. Analysis of this data could reveal various insights about player's performance/behavior during the game as well as be utilized in creation of other types of metrics (e.g. daily/weekly/monthly active users, churn, user sessions, transactions etc.).
+
+> [!IMPORTANT]
+> This is an experimental Unity SDK for Azure Event Hubs.  As such, please note that this SDK is not supported and is not provided by the Azure Event Hubs team.  If you run into problems, please let us know using the [GitHub Issues](https://aka.ms/azsdks-unity-issues) page for the SDK.
+
+[![Get the source](../../media/buttons/source2.png)](https://aka.ms/azsdks-unity)
+[![Try it now](../../media/buttons/try2.png)](https://aka.ms/azeventhubs-unitysdk)
 
 ## Requirements
 
@@ -40,6 +40,14 @@ This has been tested with the following Unity exporters.  Others may work -- we 
 * Android (Mono)
 * Unity Editor
 
+## Import the SDK
+
+To import the SDK into your own project, make sure you have downloaded the latest [.unitypackage](https://aka.ms/azeventhubs-unitysdk) from GitHub.  Then, do the following:
+
+[!include[](include/unity-import.md)]
+
+Please refer to the [Azure Event Hubs Docs](https://docs.microsoft.com/en-us/azure/event-hubs/) for even more samples and tutorials on using the API.
+
 ## Unity 2018.1 and SSL support
 
 Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail due to Mono's empty certificate store. To workaround this, you will need to modify the **ServicePointManager.CertificatePolicy** with a custom CertificatePolicy which will accept all certificates as shown.  **This means that data transfer will happen in an insecure manner.**
@@ -58,14 +66,6 @@ Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the sta
 
     ServicePointManager.CertificatePolicy = new CustomCertificatePolicy();
 ```
-
-## Import the SDK
-
-To import the SDK into your own project, make sure you have downloaded the latest [.unitypackage](https://aka.ms/azeventhubs-unitysdk) from GitHub.  Then, do the following:
-
-[!include[](include/unity-import.md)]
-
-Please refer to the [Azure Event Hubs Docs](https://docs.microsoft.com/en-us/azure/event-hubs/) for even more samples and tutorials on using the API.
 
 ## Try the Sample
 

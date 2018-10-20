@@ -12,15 +12,15 @@ ms.author: brpeek
 
 [!include[](../../includes/header.md)]
 
-> [!IMPORTANT]
-> This is an experimental Unity SDK for Azure Mobile Apps.  As such, please note that this SDK is not supported and is not provided by the Azure Mobile Apps team.  If you run into problems, please let us know using the [GitHub Issues](https://aka.ms/azsdks-unity/issues) page for this fork.
-
-[![Get the source](../../media/buttons/source2.png)](https://aka.ms/azsdks-unity)
-[![Try it now](../../media/buttons/try2.png)](https://aka.ms/azmobile-unitysdk)
-
 ## Azure Mobile Apps for Gaming
 
 [Azure Mobile Apps](https://docs.microsoft.com/azure/app-service-mobile/) contains a variety of features for building cross-platform mobile titles.  This SDK currently supports working with Easy Tables.  [Easy Tables](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-dotnet-how-to-use-client-library) are a great way to read, write, and query data in a simple table format.  While more features exist in the service, they are not yet supported by this SDK, but will be evaluated for future releases.
+
+> [!IMPORTANT]
+> This is an experimental Unity SDK for Azure Mobile Apps.  As such, please note that this SDK is not supported and is not provided by the Azure Mobile Apps team.  If you run into problems, please let us know using the [GitHub Issues](https://aka.ms/azsdks-unity-issues) page for the SDK.
+
+[![Get the source](../../media/buttons/source2.png)](https://aka.ms/azsdks-unity)
+[![Try it now](../../media/buttons/try2.png)](https://aka.ms/azmobile-unitysdk)
 
 ## Requirements
 
@@ -39,10 +39,6 @@ This has been tested with the following Unity exporters.  Others may work -- we 
 * Android (Mono)
 * Unity editor
 
-## Unity 2018.1 and SSL support
-
-Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to use the **http** version of the Mobile Apps endpoint instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example: `http://mymobileapp.azurewebsites.net/`
-
 ## Import the SDK
 
 To import the SDK into your own project, make sure you have downloaded the latest [.unitypackage](https://aka.ms/azmobile-unitysdk) from GitHub.  Then, do the following:
@@ -50,6 +46,10 @@ To import the SDK into your own project, make sure you have downloaded the lates
 [!include[](include/unity-import.md)]
 
 Please refer to the [Azure Mobile Apps Docs](https://aka.ms/azgamedev) for even more samples and tutorials on using the API.
+
+## Unity 2018.1 and SSL support
+
+Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to use the **http** version of the Mobile Apps endpoint instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example: `http://mymobileapp.azurewebsites.net/`
 
 ## Try the Sample
 
@@ -79,4 +79,4 @@ The code for the sample is broken out into four separate scripts, one for each M
 
 ## Next Steps
 
-* [Azure Mobile Apps Docs](https://aka.ms/azMobileAppsdocsgamedev)
+* [Azure Mobile Apps Docs](https://docs.microsoft.com/en-us/azure/app-service-mobile/)

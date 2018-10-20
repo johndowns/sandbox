@@ -12,8 +12,12 @@ ms.author: brpeek
 
 [!include[](../../includes/header.md)]
 
+## Azure Storage for Gaming
+
+[Azure Storage](https://docs.microsoft.com/azure/storage/) provides different types of storage that could be used in a variety of gaming scenarios.  For example, you could build a system using Blob Storage to save a user's game state for later play.  Table Storage could be used as a quick and easy database to store simple values.
+
 > [!IMPORTANT]
-> This is an experimental Unity SDK for Azure Storage.  As such, please note that this SDK is not supported and is not provided by the Azure Storage team.  If you run into problems, please let us know using the [GitHub Issues](https://github.com/BrianPeek/azure-storage-net/issues) page for this fork.
+> This is an experimental Unity SDK for Azure Storage.  As such, please note that this SDK is not supported and is not provided by the Azure Storage team.  If you run into problems, please let us know using the [GitHub Issues](https://aka.ms/azsdks-unity-issues) page for the SDK.
 
 [![Get the source](../../media/buttons/source2.png)](https://aka.ms/azsdks-unity)
 [![Try it now](../../media/buttons/try2.png)](https://aka.ms/azstorage-unitysdk)
@@ -35,17 +39,17 @@ This has been tested with the following Unity exporters.  Others may work -- we 
 * Android (Mono)
 * Unity editor
 
-## Unity 2018.1 and SSL support
-
-Due to a limitation in Unity 2018.1 (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to modify the **DefaultEndpointsProtocol** entry in your connection string to use **http** instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example: `DefaultEndpointsProtocol=http;AccountName=yourazureaccount;AccountKey=abcdef12345;EndpointSuffix=core.windows.net`
-
 ## Import the SDK
 
 To import the SDK into your own project, make sure you have downloaded the latest [.unitypackage](https://aka.ms/azstorage-unitysdk) from GitHub.  Then, do the following:
 
 [!include[](include/unity-import.md)]
 
-Please refer to the [Azure Storage Docs](https://aka.ms/azstoragedocsgamedev) for even more samples and tutorials on using the API.
+Please refer to the [Azure Storage Docs](https://docs.microsoft.com/azure/storage/) for even more samples and tutorials on using the API.
+
+## Unity 2018.1 and SSL support
+
+Due to a limitation in Unity 2018.1 (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to modify the **DefaultEndpointsProtocol** entry in your connection string to use **http** instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example: `DefaultEndpointsProtocol=http;AccountName=yourazureaccount;AccountKey=abcdef12345;EndpointSuffix=core.windows.net`
 
 ## Try the Sample
 
@@ -79,4 +83,4 @@ The code for the sample is broken out into four separate scripts, one for each s
 
 ## Next Steps
 
-* [Azure Storage Docs](https://aka.ms/azstoragedocsgamedev)
+* [Azure Storage Docs](https://docs.microsoft.com/azure/storage/)
