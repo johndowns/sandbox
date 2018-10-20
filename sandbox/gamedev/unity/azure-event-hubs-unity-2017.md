@@ -19,7 +19,7 @@ ms.author: Dimitris-Ilias Gkanatsios
 > This is an experimental Unity SDK for Azure Event Hubs.  As such, please note that this SDK is not supported and is not provided by the Azure Event Hubs team.  If you run into problems, please let us know using the [GitHub Issues](https://aka.ms/azsdks-unity/issues) page for this fork.
 
 [![Get the source](../../media/buttons/source2.png)](https://github.com/Azure/azure-event-hubs-dotnet)
-[![Try it now](../../media/buttons/try2.png)](https://aka.ms/azeventhubs-unitysdk)
+[![Try it now](../../media/buttons/try2.png)](https://github.com/BrianPeek/AzureSDKs-Unity/raw/master/2017.x/UnityPackages/azure-event-hubs-1.0.3.unitypackage)
 
 ## Azure Event Hubs for Gaming
 
