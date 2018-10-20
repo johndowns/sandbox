@@ -25,7 +25,7 @@ ms.author: brpeek
 ## Requirements
 
 * [Unity 2018.1 (or greater)](https://unity3d.com/)
-  * Unity 2019.1 includes support for .NET Standard.  This feature allows us to use the existing Azure SDKs with some tweaks.
+  * Unity 2018.1 includes support for .NET Standard.  This feature allows us to use the existing Azure SDKs with some tweaks.
 * [An Azure Mobile Apps account (Sign up for free!)](https://aka.ms/azfreegamedev)
 
 ## Compatibility
