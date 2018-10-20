@@ -52,7 +52,7 @@ Please refer to the [Azure Event Hubs Docs](https://docs.microsoft.com/en-us/azu
 Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail due to Mono's empty certificate store. To workaround this, you will need to setup a **ServicePointManager.ServerCertificateValidationCallback** property that returns `true` as shown below.  **This means that data transfer will happen in an insecure manner.**  We highly recommend upgrading your project to Unity 2018.2 if possible.
 
 ```csharp
-    System.Net.ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, error) => { return true; };
+System.Net.ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, error) => { return true; };
 ```
 
 ## Try the Sample
