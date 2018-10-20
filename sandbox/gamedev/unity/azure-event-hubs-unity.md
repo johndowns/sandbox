@@ -26,7 +26,7 @@ Azure Event Hubs is a real-time custom event ingestion service that can collect 
 
 * [Unity 2018.1 (or greater)](https://unity3d.com/)
   * Unity 2018.2 (or greater) is required for proper SSL support.
-  * If you are using Unity 2017, please check out our [Unity 2017 SDK](azure-event-hubs-unity-2017).
+  * If you are using Unity 2017, please check out our [Unity 2017 SDK](./azure-event-hubs-unity-2017.md).
 * [An Azure Event Hubs account (Sign up for free!)](https://aka.ms/azfreegamedev)
 
 ## Compatibility
