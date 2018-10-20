@@ -15,7 +15,7 @@ ms.author: brpeek
 > [!IMPORTANT]
 > This is an experimental Unity SDK for Azure Mobile Apps.  As such, please note that this SDK is not supported and is not provided by the Azure Mobile Apps team.  If you run into problems, please let us know using the [GitHub Issues](https://github.com/BrianPeek/AzureSDKs-Unity/issues) page for this fork.
 
-[![Get the source](../../media/buttons/source2.png)](https://github.com/azure/azure-mobile-apps-net-client)
+[![Get the source](../../media/buttons/source2.png)](https://github.com/BrianPeek/AzureSDKs-Unity)
 [![Try it now](../../media/buttons/try2.png)](https://aka.ms/azmobile-unitysdk)
 
 ## Azure Mobile Apps for Gaming
