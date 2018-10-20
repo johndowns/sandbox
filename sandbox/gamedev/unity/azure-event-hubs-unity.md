@@ -44,7 +44,7 @@ This has been tested with the following Unity exporters.  Others may work -- we 
 
 There are a few known issues and workarounds.
 
-### Unity and SSL support for Unity 2018.1
+### Unity 2018.1 and SSL support
 
 > [!WARNING]
 > Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail due to Mono's empty certificate store. To workaround this, you will need to modify the **ServicePointManager.CertificatePolicy** with a custom CertificatePolicy which will accept all certificates as shown.

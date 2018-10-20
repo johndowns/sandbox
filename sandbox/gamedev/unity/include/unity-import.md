@@ -1,8 +1,6 @@
 1. Open Unity and select **Edit > Project Settings > Player** to open the **PlayerSettings** panel.
 
-1. Select **.NET 4.x Equivalent** from the **Scripting Runtime Version** dropdown in the **Configuration** section.
-
-1. Select **.NET Standard 2.0** from the **Api Compatibility Level** dropdown in the **Configuration** section.
+1. Select **.NET 4.x Equivalent** from the **Scripting Runtime Version** dropdown and **.NET Standard 2.0** from the **Api Compatibility Level** dropdown in the **Configuration** section.
 
    ![Scripting Configuration dialog](../media/unity-player-config-2018.png)
 

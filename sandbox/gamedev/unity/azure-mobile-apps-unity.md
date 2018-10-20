@@ -25,7 +25,8 @@ ms.author: brpeek
 ## Requirements
 
 * [Unity 2018.1 (or greater)](https://unity3d.com/)
-  * Unity 2018.1 includes support for .NET Standard.  This feature allows us to use the existing Azure SDKs with some tweaks.
+  * Unity 2018.2 (or greater) is required for proper SSL support.
+  * If you are using Unity 2017, please check out our [Unity 2017 SDK](./azure-mobile-apps-unity-2017.md).
 * [An Azure Mobile Apps account (Sign up for free!)](https://aka.ms/azfreegamedev)
 
 ## Compatibility
@@ -42,7 +43,7 @@ This has been tested with the following Unity exporters.  Others may work -- we 
 
 There are a few known issues and workarounds.
 
-### Unity and SSL support
+### Unity 2018.1 and SSL support
 
 Due to a Unity 2018.1 limitation (fixed in 2018.2), HTTPS requests using the standard .NET networking stack (i.e. not using UnityWebRequest) will fail.  To workaround this, you will need to use the **http** version of the Mobile Apps endpoint instead of **https**.  **This means your data will not be encrypted to and from the server.**  Here's an example:
 
