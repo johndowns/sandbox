@@ -43,6 +43,11 @@ sections:
       href: unity/azure-mobile-apps-unity
       image:
         src: media/unity.png
+    - title: NuGet2Unity
+      html: <p>Utility to create Unity packakges from NuGet</p>
+      href: unity/nuget2Unity
+      image:
+        src: media/unity.png
     - title: Azure SDKs for MonoGame
       html: <p>Use the Azure SDKs with MonoGame</p>
       href: monogame/azure-monogame
