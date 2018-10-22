@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 10/22/2018
 ms.author: brpeek
 ---
-# NuGet2Unity - Unity packager for NuGet packages
+# NuGet2Unity - Create Unity Packages from NuGet
 
 [!include[](../../includes/header.md)]
 
