@@ -12,12 +12,14 @@ ms.author: brpeek
 
 [!include[](../../includes/header.md)]
 
-Unity does not support importing or using NuGet packages directly.  With this utility, you can download and package any NuGet package into a compatible .unitypackage for use with the Unity game engine.
+Unity does not support importing or using NuGet packages directly.  With this utility, you can download and package any NuGet package into a compatible .unitypackage for use with the Unity game engine.  This utility has been used to create the [Azure SDK packages](https://aka.ms/NuGet2Unity) here on the Sandbox.
+
+[![Get the source](../../media/buttons/source2.png)](https://aka.ms/NuGet2Unity)
+[![Try it now](../../media/buttons/try2.png)](https://aka.ms/azeventhubs-unitysdk)
 
 ## Requirements
 
-* To run: [.NET Core 2.1](https://www.microsoft.com/net/download/dotnet-core/2.1)
-* To build: [.NET Core 2.1 SDK](https://www.microsoft.com/net/download/dotnet-core/2.1)
+* [.NET Core 2.1 SDK](https://www.microsoft.com/net/download/dotnet-core/2.1)
 
 ## Compatibility
 
@@ -25,4 +27,4 @@ This utility was written to support Unity 2018 and greater with its support for 
 
 ## How to Use
 
-Please see the [README](https://github.com/BrianPeek/NuGet2Unity) at the GitHub repo to learn more.
+Please see the [README](https://aka.ms/NuGet2Unity) at the GitHub repo to learn more.
