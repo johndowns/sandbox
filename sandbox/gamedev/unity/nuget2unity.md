@@ -15,7 +15,6 @@ ms.author: brpeek
 Unity does not support importing or using NuGet packages directly.  With this utility, you can download and package any NuGet package into a compatible .unitypackage for use with the Unity game engine.  This utility has been used to create the [Azure SDK packages](https://aka.ms/NuGet2Unity) here on the Sandbox.
 
 [![Get the source](../../media/buttons/source2.png)](https://aka.ms/NuGet2Unity)
-[![Try it now](../../media/buttons/try2.png)](https://aka.ms/azeventhubs-unitysdk)
 
 ## Requirements
 
