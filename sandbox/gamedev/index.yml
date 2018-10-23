@@ -44,7 +44,7 @@ sections:
       image:
         src: media/unity.png
     - title: NuGet2Unity
-      html: <p>Utility to create Unity packakges from NuGet</p>
+      html: <p>Utility to create Unity packages from NuGet</p>
       href: unity/nuget2Unity
       image:
         src: media/unity.png
