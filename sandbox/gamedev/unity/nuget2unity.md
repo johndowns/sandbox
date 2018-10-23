@@ -24,6 +24,9 @@ Unity does not support importing or using NuGet packages directly.  With this ut
 
 This utility was written to support Unity 2018 and greater with its support for .NET Standard 2.0.  Therefore, this packager will only work with NuGet packages that are compatible with .NET Standard 2.0.  If you are using an older version of Unity and/or the .NET 4.x backend in Unity, this tool will not create a compatible package for you.
 
+> [!NOTE]
+> While the resulting .unitypackage may import into your Unity project just fine, there's no guarantee the binaries themselves will work properly with Unity's Mono and IL2CPP based engine.
+
 ## How to Use
 
 Please see the [README](https://aka.ms/NuGet2Unity) at the GitHub repo to learn more.
